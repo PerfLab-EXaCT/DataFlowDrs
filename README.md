@@ -12,7 +12,7 @@ TODO
 * Repositories (See: https://github.com/perflab-exact )
 
   - DataLife/DaYu: 
-    https://github.com/pnnl/datalife
+    https://github.com/pnnl/datalife /
     https://github.com/pnnl/DaYu
 
   - FlowForecaster: https://github.com/pnnl/FlowForecaster
@@ -29,6 +29,5 @@ TODO
 
   - AutoFlowFlexer: https://github.com/PerfLab-EXaCT/AutoFlowFlexer
   
-  - FlowQoS: 
-
+  - QoSFlow: https://github.com/PerfLab-EXaCT/QoSFlow
   
