@@ -11,16 +11,23 @@ TODO
 
 * Repositories (See: https://github.com/perflab-exact )
 
+  - Storage resource explorer: 
+    https://github.com/candiceT233/linux_resource_detect
+
   - DataLife/DaYu: 
     https://github.com/pnnl/datalife /
     https://github.com/pnnl/DaYu
+    <!-- https://github.com/candiceT233/dayu-tracker -->
 
   - FlowForecaster: https://github.com/pnnl/FlowForecaster
 
-  - DPM: Dataflow Performance Matcher: (2025/06/20)
+  - Dataflow Performance Matcher (DPM):
+    https://github.com/candiceT233/spm
+    <!-- 
     https://github.com/candiceT233/linux_resource_detect/tree/dev/perf_analysis
-    https://github.com/candiceT233/linux_resource_detect/blob/dev/perf_analysis/wf_analysis.ipynb
+        https://github.com/candiceT233/linux_resource_detect/blob/dev/perf_analysis/wf_analysis.ipynb
     https://github.com/candiceT233/linux_resource_detect/tree/dev/perf_analysis/fastflow_plots
+    -->
 
   - FastFlow: https://github.com/PerfLab-EXaCT/FastFlow
   
@@ -30,4 +37,4 @@ TODO
   - AutoFlowFlexer: https://github.com/PerfLab-EXaCT/AutoFlowFlexer
   
   - QoSFlow: https://github.com/PerfLab-EXaCT/QoSFlow
-  
+
