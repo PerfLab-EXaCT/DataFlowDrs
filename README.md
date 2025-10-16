@@ -14,8 +14,8 @@ TODO
   - Storage resource explorer: 
     https://github.com/candiceT233/linux_resource_detect
 
-  - DataLife/DaYu: 
-    https://github.com/pnnl/datalife /
+  - DataLife/DaYu:
+    https://github.com/pnnl/datalife / https://github.com/candiceT233/datalife
     https://github.com/pnnl/DaYu
     <!-- https://github.com/candiceT233/dayu-tracker -->
 
