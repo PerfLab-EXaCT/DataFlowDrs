@@ -5,6 +5,26 @@
 DataFlowDrs
 =============================================================================
 
+**About**: 
+
+Scientific workflows  are critical in many areas of scientific exploration. Because these workflows tend to be data intensive, severe bottlenecks emerge in storage systems and I/O networks. We introduce DataFlowDrs, a new comprehensive suite of tools for performance optimization of HPC workflows that especially focuses on data flow and storage. DataFlowDrs introduces (a) lightweight high-resolution measurement and visualization tools for workflow profiling and tracing; (b) rapid modeling and analysis that reduces analysis data by compressing common repeated coordination patterns; (c) novel methods for predicting data flow scaling using automatically generated interpretable models of data flow; (d) effective performance analysis and bottleneck detection that can automatically quantify and rank bottlenecks for different combinations of task parallelism and storage resources; (e) actionable performance optimization in the form of new schedules and resource assignments. DataFlowDrs automates several previously difficult manual analyses and substantially reduces the impact of data flow bottlenecks by recommending the right tradeoffs between task parallelism and storage performance.
+
+
+**DataFlowDrs Tools**: 
+
+![Alt text](./dataflowdr-overview.pdf "DataFlowDrs overview")
+
+DataFlowDrs provides tools for measuring, visualizing, analyzing, modeling, ranking, and resolving dataflow bottlenecks. Its capabilities include lightweight high-resolution measurement; intuitive and interactive visualization; automated modeling methods for reasoning about workflow DAGs and data flows; bottleneck analysis and performance prediction to identify and rank bottlenecks; and rescheduling to select the better of better of flow parallelism and flow locality.
+
+The *measurement* (1), which operates on unmodified workflows, is scalable, with lightweight but high-resolution profiles and traces of dataflow between tasks. The resulting data flow lifecycles (DFL) guide bottleneck analysis and coordination of task and data flows on distributed resources. DFLs even expose the relationship between data semantics and dataflow when using descriptive data formats such as HDF5.
+
+The *visualization and analysis* (2) enable an analyst to quickly and interactively reason about dataflow and potential bottlenecks. To focus attention, flow analysis isolates critical flows and their interactions; and associates flow metrics with producer-consumer patterns.
+
+The performance *modeling* (3) predicts data flow bottlenecks using automatically generated models of data flow, inferred from only 3--5 workflow executions. The models are interpretable in that they typically are composed entirely of analytical expressions. Companion *ranking* models (4) quantify the bottleneck severity of producer-consumer relations for different combinations of task parallelism and storage resources.
+
+Finally, *bottleneck ranking and resolution* (5) presents actionable performance optimization in the form of new schedules and resource assignments. The resulting schedules find the right tradeoffs between task parallelism and storage performance and that can substantially reduce the impact of data flow bottlenecks.
+
+
 
 TODO
 -----------------------------------------------------------------------------
