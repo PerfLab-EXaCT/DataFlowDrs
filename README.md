@@ -12,7 +12,7 @@ Scientific workflows  are critical in many areas of scientific exploration. Beca
 
 **DataFlowDrs Tools**: 
 
-![Alt text](./dataflowdr-overview.pdf "DataFlowDrs overview")
+![DataFlowDrs overview](/dataflowdr-overview.pdf)
 
 DataFlowDrs provides tools for measuring, visualizing, analyzing, modeling, ranking, and resolving dataflow bottlenecks. Its capabilities include lightweight high-resolution measurement; intuitive and interactive visualization; automated modeling methods for reasoning about workflow DAGs and data flows; bottleneck analysis and performance prediction to identify and rank bottlenecks; and rescheduling to select the better of better of flow parallelism and flow locality.
 
